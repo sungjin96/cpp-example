@@ -1,12 +1,13 @@
 #include <iostream>
+#include <numbers>
 
 using namespace std;
 
 int main() {
-    unsigned int a = 11u;
-    long int longNum = 0l;
-    long long longLongNum = 0LL;
-    unsigned long long ulongLongNum = 0uLL;
+    cout << (int)numeric_limits<int8_t>::max() << endl;
+    cout << (int)numeric_limits<int16_t>::max() << endl;
+    cout << (int)numeric_limits<int32_t>::max() << endl;
+    cout << (int)numeric_limits<int64_t>::max() << endl;
 
     return 0;
 }
